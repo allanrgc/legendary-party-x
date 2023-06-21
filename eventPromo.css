@@ -1,0 +1,175 @@
+/* font-family: 'Foldit', cursive;
+font-family: 'Magra', sans-serif;
+font-family: 'Overpass Mono', monospace; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url("./assets/pexels-daniel-nouri-8448535.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.block {
+    display: flex;
+    color: rgba(255, 255, 255, 0.966);
+    margin-left: 100px;
+}
+
+.main-text {
+    display: flex;
+    margin: 3px;
+    align-items: center;
+    text-shadow: 2px 2px 3px rgb(191, 0, 255);
+    font-family: 'Share Tech Mono', monospace;
+}
+
+h1 {
+    font-size: 108px;
+}
+
+article {
+    margin: 0 10px;
+}
+
+.info {
+    display: flex;
+    border-radius: 3px;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(191, 0, 255, 0.675);
+    max-width: 50%;
+}
+
+.info-1 {
+    display: flex;
+}
+
+.info-2 {
+    justify-content: flex-end;
+}
+.info-2 img{
+    height: 360px;
+    object-fit: cover;
+}
+
+.info-3 {
+    display: flex;
+}
+
+.info-4 {
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px auto;
+}
+.info h3{
+    margin-bottom: 10px;
+}
+.footer-ul{
+    display: flex;
+}
+.footer-li{
+    margin: 10px 30px;
+    list-style-type: none;
+}
+
+.event-details{
+    display: flex;
+    justify-content: center;
+}
+.details {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 60%;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.details h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.event-info {
+    margin-bottom: 20px;
+}
+
+.event-info p {
+    margin-bottom: 10px;
+}
+
+.event-info ul {
+    font-size: 1.1rem;
+    list-style: disc;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.ticket-info p {
+    margin-bottom: 10px;
+}
+
+.ticket-info ul {
+    font-size: 1.2rem;
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.linha{
+    /* background-color: rgba(0, 0, 0, 0); */
+    /* width: 75%; */
+    height: 1px;
+    margin: 1% auto;
+    animation-name: grow;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes grow {
+    0% {
+      /* transform: translateX(0%); */
+    }
+    50% {
+      transform: translateX(100%);
+      background: rgba(0, 206, 209, 0.6);
+    }
+  }
